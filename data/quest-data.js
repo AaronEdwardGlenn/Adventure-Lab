@@ -13,17 +13,21 @@ const seaMonsters = {
             description: 'Kick some Ass. Fuck this guy.', 
             result: `What were you thinking? The sea monster snaches you up like a child snatches up a gingerbread man and bites off your foot to teach you a lesson! Ouch!! Swimming will be a lot harder from here on out but now is not the time to lack persistence.`, 
             progress: 0,
-            health: -10
+            health: -25
         }, 
         {
             id: 'dance', 
             description: 'Initiate dance distraction!', 
             result:`The sea monster settles down and starts bobbing around to your imaginary beat. Looks like you found yourself a dance partner! Way to go, after a few step mins moving to the groove the sea monster heads off. It was having a bad day and this totally turned things around. Time to move forward, this direction feels good.`, 
+            progress: 25,
+            health: 0
         },
         {
             id: 'hide',
             description: 'HIDE fo yo LIFE!',
-            Result: `You are pathetic. You may have survived but no one will sings songs of your bravery when you die. Are you even worthy of finding Atlantis?`,
+            Result: `You are pathetic. You may have survived but no one will sings songs of your bravery when you die. Are you even worthy of finding Atlantis? Stop waisting your air!`,
+            progress: 0,
+            health: -25
         }
 
     ]
@@ -45,17 +49,21 @@ const caves = {
             description: 'The leaf',
             result: `You enter in the cave and feel a bit of current taking you forward. You stop swimming but your momentum only increases. What is happening?? Your dive computer starts alerting that you are quickly ascending. Next thing you know you breach the surface! You have entered in to a complex system that ends in a geographic blowhole! After sending it about 50 feet in the air you land on the beach, roughed up and badly bruised. That sucks. Time to head back down and try again!`, 
             progress: 0,
-            health: -10
+            health: -25
         }, 
         {
             id: 'snake', 
             description: 'The Snake',
-            result:`After a few tight corners and questionably narrow passageways, you enter into an open chasm that stretches as far as the eye can see. Though it is all contained, with light penetrating from above through a lightly perforated rock ceiling. Looks magical, I am sure you are on the right track! I bet the snake image was just to trick others as you might have guessed!`, 
+            result:`After a few tight corners and questionably narrow passageways, you enter into an open chasm that stretches as far as the eye can see. Though it is all contained, with light penetrating from above through a lightly perforated rock ceiling. Looks magical, I am sure you are on the right track! I bet the snake image was just to trick others as you might have guessed!`,
+            progress: 25,
+            health: 0 
         },
         {
             id: 'waves',
             description: 'The Wavey Lines',
             Result: `You move down a long tunnel and the water starts to look strange, almost shimmery. You notice that you keep going down, down, down into the abyss. All of the sudden you start to wonder, is it getting warmer in here? Before you know it, your skin starts to pang with intense feelings of burning heat. Oh no! It seems you have entered into the entrance of a geothermal vent! Your skin has taken all it can handle. Time to hobble back to the start of the caves and try again!`,
+            progress: 0,
+            health: -25
         }
 
     ]
@@ -82,12 +90,16 @@ const schoolOfSharks = {
         {
             id: 'swim', 
             description: 'Swim as fast as you can out of there.',
-            result:`Sharks are like cats, they see you run and they decide you’re something to chase! A few sharks follow you around a couple rocks. You hide out but they are lurking, waiting for you to emerge. After wasting a ton of time, they eventually dissipate and you’ve gotta find your way to to where you started. Not fun. Not smart.`, 
+            result:`Sharks are like cats, they see you run and they decide you’re something to chase! A few sharks follow you around a couple rocks. You hide out but they are lurking, waiting for you to emerge. After wasting a ton of time, they eventually dissipate and you’ve gotta find your way to to where you started. Not fun. Not smart. You have limited air.`, 
+            progress: 0,
+            health: -25
         },
         {
             id: 'punch',
             description: 'Puch the closest one in the nose. I read somewhere that’s what you should do!',
             Result: `You read wronnngggggggg. The sharks were just saying what’s up and you picked a fight. The shark you punched is slightly annoyed and takes a nip at your face. That is gonna leave a scar. Why would you do that.`,
+            progress: 0,
+            health: -25
         }
 
     ]

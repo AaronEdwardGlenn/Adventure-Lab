@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo|Oswald');
+
+body {
+    font-family: fantasy;
+    background-image: url('../assets/water.gif');
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'fantasy';
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+header, main {
+    padding: 8px;
+}
+
+h1 {
+    margin: 0 20px;
+    flex-grow: 2;
+}
+
+
+main {
+    margin-bottom: 100px;
+}
+
+
+input, fieldset, button {
+    border: 1px solid aqua;
+}
+
+button {
+    margin: 20px 0;
+    padding: 15px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    background-color: blue; 
+}
+
+#description {
+    background-color: green;
+    font-size: 150%;  
+}
+
+#choices {
+    text-align: left;
+    font-size: 200%; 
+    font-weight: bolder; 
+}

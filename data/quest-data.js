@@ -1,5 +1,5 @@
 const seaMonsters = {
-    id: 'sea-monsters', 
+    id: 'seaMonsters', 
     title: 'Pelagic Beasts of the Depth', 
     map: {
         top: '89%',
@@ -25,7 +25,7 @@ const seaMonsters = {
         {
             id: 'hide',
             description: 'HIDE fo yo LIFE!',
-            Result: `You are pathetic. You may have survived but no one will sings songs of your bravery when you die. Are you even worthy of finding Atlantis? Stop waisting your air!`,
+            result: `You are pathetic. You may have survived but no one will sings songs of your bravery when you die. Are you even worthy of finding Atlantis? Stop waisting your air!`,
             progress: 0,
             health: -25
         }
@@ -61,7 +61,7 @@ const caves = {
         {
             id: 'waves',
             description: 'The Wavey Lines',
-            Result: `You move down a long tunnel and the water starts to look strange, almost shimmery. You notice that you keep going down, down, down into the abyss. All of the sudden you start to wonder, is it getting warmer in here? Before you know it, your skin starts to pang with intense feelings of burning heat. Oh no! It seems you have entered into the entrance of a geothermal vent! Your skin has taken all it can handle. Time to hobble back to the start of the caves and try again!`,
+            result: `You move down a long tunnel and the water starts to look strange, almost shimmery. You notice that you keep going down, down, down into the abyss. All of the sudden you start to wonder, is it getting warmer in here? Before you know it, your skin starts to pang with intense feelings of burning heat. Oh no! It seems you have entered into the entrance of a geothermal vent! Your skin has taken all it can handle. Time to hobble back to the start of the caves and try again!`,
             progress: 0,
             health: -25
         }
@@ -97,7 +97,7 @@ const schoolOfSharks = {
         {
             id: 'punch',
             description: 'Puch the closest one in the nose. I read somewhere that’s what you should do!',
-            Result: `You read wronnngggggggg. The sharks were just saying what’s up and you picked a fight. The shark you punched is slightly annoyed and takes a nip at your face. That is gonna leave a scar. Why would you do that.`,
+            result: `You read wronnngggggggg. The sharks were just saying what’s up and you picked a fight. The shark you punched is slightly annoyed and takes a nip at your face. That is gonna leave a scar. Why would you do that.`,
             progress: 0,
             health: -25
         }

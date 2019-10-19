@@ -1,0 +1,43 @@
+main {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 75px;
+}
+
+.choice {
+    display: block;
+    list-style: none;
+    padding: 5px;
+}
+
+.choice input {
+    margin-right: 20px;
+}
+
+#result {
+    background: aqua;
+    padding: 20px;
+}
+
+#result-description {
+    background: rgb(255, 0, 221);
+    font-weight: bolder;
+}
+
+header img{
+    height: 100px; 
+    width: 10px; 
+    margin-right: 25px; 
+}
+
+header {
+    background-color: rgb(3, 165, 89); 
+    text-align: center;
+    display: flex;
+}
+
+main img{
+    width: 700px; 
+    align-content: center;
+}
